@@ -10,54 +10,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+    <div class="container-fluid">
     <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">MICROAP1</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto px-5">
-                        <li class="nav-item ">
-                          <a class="nav-link mx-4 text-center nav-link-ltr" href="#">Home </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link mx-4 text-center nav-link-ltr " href="#about">Get to Know Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-4 text-center nav-link-ltr " href="#projects">Projects</a>
-                          </li>
-                        <li class="nav-item">
-                          <a class="nav-link mx-4 text-center nav-link-ltr " href="#contact">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-       </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg my-2"><a aria-current="page" class="navbar-brand active" href="/">MicroAPI</a><button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse text-center "><ul class="navbar-nav ml-auto"><div class="navbar-nav"><div class="dropdown"><button class="btn btn-outline signin px-4 py-2 mx-3 " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Log in</button><div class="dropdown-menu signin text-center px-4" aria-labelledby="dropdownMenuButton"></div></div><div class="dropdown"><button class="btn btn-outline signup px-2 py-2 mx-3 " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</button><div class="dropdown-menu text-center px-4" aria-labelledby="dropdownMenuButton"></div></div></div></ul></div></nav>
     </header>
     <main>
-      <div class="container-fluid">
         <div class="row hero">
-          <div class="col-sm-12">
-            <img src="./images//Rectangle 6.png" class="img-fluid">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8 hero1">
+            <h1 class="mr-5 pr-5">Connect With</h1>
+            <img src="./images/Group 13.png" class="img-fluid social">
+            <p class="user text-center mr-5 pr-5 my-2">And More!</p>
+            <p class="text-center mr-5 pr-5 ">or use your email address.</p>
           </div>
+          <div class="col-sm-2"></div>
         </div>
-        <div class="row register py-5">
-          <div class="col-md-1"></div>
-          <div class="col-sm-5 col-md-4">
-            <img src="./images/register..png" alt=""class="img-fluid">
-          </div>
-          <div class="col-md-7 col-sm-7">
-            <h2>No Registration Friction</h2>
-            <p>
-                Users sign in using social providers <br> they already use and trust.
-            </p>
-          </div>
+        <div class="row mb-5 register">
+          <div class="col-sm-1"></div>
+         <div class="col-sm-4">
+           <img src="./images/register.png" class="img-fluid">
+         </div>
+         <div class="col-sm-5 mt-4">
+            <h3>No Registration Friction</h3>
+            <div class="row pt-3 mt-5">
+              <div class="col-6 text-center">
+                  <p class="user">Users sign in using social providers they already use and trust.</p> 
+              </div>
+              <div class="col-6"></div>
+            </div>
+         </div>
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-12">
-            <p class="text-center mt-5">
+            <p class="text-center mb-5 pb-5 user">
                 Get scalable authentication built right into your application<br> 
                 without the development overhead, security risks, and<br> maintenance
                 that come from building it yourself. Our API <br>allows your team to deploy 
@@ -65,15 +50,16 @@
             </p>
           </div>
         </div>
-        <div class="row cost">    
-          <div class="col-md-4 my-5 col-lg-4">
-            <h5>Reduced Operational Cost</h5>
-            <p class="text-justify">
+        <div class="row cost"> 
+            <div class="col-sm-1 col-1"></div>   
+          <div class="col-sm-5 my-5 col-5 text-center user cost2">
+            <h4>Reduced Operational Cost</h4>
+            <p class="text-center">
                 Our API Saves you month<br> of integration testing and<br> support headache for you<br> and your customers.
             </p>
           </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-6">
+        
+          <div class="col-sm-6 col-6">
             <img class="img-fluid costImg" src="./images/photodune-12772856-diverse-group-people-working-together-concept-s-600x450 3.png">
           </div>
         </div>
@@ -135,17 +121,17 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-12">
-            <p class="text-center mt-3">Token-based authentication</p>
-            <p class="text-center ">Passwordless authentication</p>
-            <p class="text-center ">Pre-built login and registration screens</p>
-            <p class="text-center ">A hosted user database that you control</p>
-            <p class="text-center ">Customizable verification + welcome emails</p>
-            <p class="text-center ">A complete user admin UI to manage your users</p>
-            <p class="text-center ">Built-in account verification & password reset flows</p>
-            <p class="text-center mb-3">Strong password security, enforcement and encryption</p>
+            <p class="text-center mt-3">Token-based authentication<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center ">Passwordless authentication<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center ">Pre-built login and registration screens<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center ">A hosted user database that you control<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center ">Customizable verification + welcome emails<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center ">A complete user admin UI to manage your users<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center ">Built-in account verification & password reset flows<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
+            <p class="text-center mb-3">Strong password security, enforcement and encryption<img class="img-fluid vector mx-2" src="./images/Vector (1).svg"></p>
           </div>
         </div>
-      </div>
+    
     </main>
     <footer class="footer text-center">
       <div class="my-5 py-3">
@@ -155,6 +141,7 @@
         <h6>Copyright 2020</h6>
       </div>
     </footer>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
